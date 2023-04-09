@@ -51,6 +51,21 @@
             android:ellipsize="end"
             android:maxLines="5"
             tools:text="@string/description" />
+
+        <TextView
+            android:id="@+id/tv_item_rate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tv_item_name"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:layout_toRightOf="@id/img_item_photo"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:text="@string/rate" />
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>

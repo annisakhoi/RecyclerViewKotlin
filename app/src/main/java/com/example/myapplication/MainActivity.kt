@@ -2,6 +2,7 @@ package com.example.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -12,54 +13,70 @@ class MainActivity : AppCompatActivity() {
 
         val superheroList = listOf<Superhero>(
             Superhero(
-                R.drawable.antman,
-                nameSuperhero = "Ant-Man",
-                descSuperhero = "lorem lipsum lorem lipsum lorem lipsum lorem lipsum"
+                R.drawable.law,
+                nameSuperhero = "L Lawliet",
+                descSuperhero = "Death Note",
+                rateSuperhero = "10/10"
             ),
             Superhero(
-                R.drawable.blackwidow,
-                nameSuperhero = "Black Widow",
-                descSuperhero = "lorem lipsum lorem lipsum lorem lipsum lorem lipsum"
+                R.drawable.itachii,
+                nameSuperhero = "Uchiha Itachi",
+                descSuperhero = "Naruto: Shippuden",
+                rateSuperhero = "10/10"
             ),
             Superhero(
-                R.drawable.ironman2,
-                nameSuperhero = "Iron Man",
-                descSuperhero = "lorem lipsum lorem lipsum lorem lipsum lorem lipsum"
+                R.drawable.giyu,
+                nameSuperhero = "Tomioka Giyu",
+                descSuperhero = "Demon Slayer",
+                rateSuperhero = "9/10"
             ),
             Superhero(
-                R.drawable.captain,
-                nameSuperhero = "Captain America",
-                descSuperhero = "lorem lipsum lorem lipsum lorem lipsum lorem lipsum"
+                R.drawable.akame,
+                nameSuperhero = "Akame",
+                descSuperhero = "Akame ga Kill!",
+                rateSuperhero = "9/10"
             ),
             Superhero(
-                R.drawable.scarlet,
-                nameSuperhero = "Scarlet Witch",
-                descSuperhero = "lorem lipsum lorem lipsum lorem lipsum lorem lipsum"
+                R.drawable.nar,
+                nameSuperhero = "Uzumaki Naruto",
+                descSuperhero = "Naruto: Shippuden",
+                rateSuperhero = "10/10"
             ),
             Superhero(
-                R.drawable.nick,
-                nameSuperhero = "Nick Fury",
-                descSuperhero = "lorem lipsum lorem lipsum lorem lipsum lorem lipsum"
+                R.drawable.gara,
+                nameSuperhero = "Gaara",
+                descSuperhero = "Naruto: Shippuden",
+                rateSuperhero = "9.5/10"
             ),
             Superhero(
-                R.drawable.phanter,
-                nameSuperhero = "Black Panther",
-                descSuperhero = "lorem lipsum lorem lipsum lorem lipsum lorem lipsum"
+                R.drawable.killuua,
+                nameSuperhero = "Killua Zoldyck",
+                descSuperhero = "Hunter x Hunter",
+                rateSuperhero = "10/10"
             ),
             Superhero(
-                R.drawable.thor,
-                nameSuperhero = "Thor",
-                descSuperhero = "lorem lipsum lorem lipsum lorem lipsum lorem lipsum"
+                R.drawable.normaan,
+                nameSuperhero = "Norman",
+                descSuperhero = "The Promised Neverland",
+                rateSuperhero = "10/10"
             ),
             Superhero(
-                R.drawable.hulk,
-                nameSuperhero = "Hulk",
-                descSuperhero = "lorem lipsum lorem lipsum lorem lipsum lorem lipsum"
+                R.drawable.ma,
+                nameSuperhero = "Kamado Tanjirou",
+                descSuperhero = "Demon Slayer",
+                rateSuperhero = "10/10"
             ),
             Superhero(
-                R.drawable.strange,
-                nameSuperhero = "Doctor Strange",
-                descSuperhero = "lorem lipsum lorem lipsum lorem lipsum lorem lipsum"
+                R.drawable.conann,
+                nameSuperhero = "Edogawa Conan",
+                descSuperhero = "Detectif Conan",
+                rateSuperhero = "10/10"
+            ),
+            Superhero(
+                R.drawable.gon,
+                nameSuperhero = "Gon Freecss",
+                descSuperhero = "Hunter x Hunter",
+                rateSuperhero = "10/10"
             )
         )
 

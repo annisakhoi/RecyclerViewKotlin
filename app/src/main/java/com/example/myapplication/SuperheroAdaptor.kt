@@ -16,11 +16,13 @@ class SuperheroAdaptor(private val context: Context, private  val superhero: Lis
         val imgSuperhero = view.findViewById<ImageView>(R.id.img_item_photo)
         val nameSuperhero = view.findViewById<TextView>(R.id.tv_item_name)
         val descSuperhero = view.findViewById<TextView>(R.id.tv_item_description)
+        val rateSuperhero = view.findViewById<TextView>(R.id.tv_item_rate)
 
         fun bindView(superhero: Superhero, listener: (Superhero) -> Unit){
             imgSuperhero.setImageResource(superhero.imgSuperhero)
             nameSuperhero.text = superhero.nameSuperhero
             descSuperhero.text = superhero.descSuperhero
+            rateSuperhero.text = superhero.rateSuperhero
         }
     }
 
